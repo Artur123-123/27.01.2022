@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(186, 207, 231);
+    background-color: #829EB9;
 }
 
 .nav {
@@ -18,7 +18,7 @@ body {
 }
 
 .item1 {
-    background-color: rgb(61, 104, 153);
+    background-color: rgb(102, 146, 196);
     padding: 4%;
     margin-top: 3%;
     text-align: center;
@@ -41,6 +41,6 @@ body {
     padding: 1%;
 }
 
-#h2 {
+#h3 {
     text-align: center;
 }

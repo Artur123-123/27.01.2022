@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h3 id="h3">Obliczanie na podstawie powierzchni zapotrzebowania na farbę</h3>
+        <div>
+            <!-- <p>Podaj powierzchnię</p> -->
+            <input type="number" id="zawartosc">
+            <button onclick="obliczanie(value)">Policz</button>
+            <p id="wynik"></p>
+        </div>
+    </div>
+</body>
+
+<script>
+
+function obliczanie() {
+    const zawartosc = document.getElementById('zawartosc').value
+    const farba = Math.ceil(zawartosc/4)
+    const wynik = document.getElementById('wynik');
+
+    wynik.innerHTML = "Liczba jednolitrowych puszek farby potrzebnych do pomalowania wynosi: "+farba;
+}
+
+</script>
+
+</html>
